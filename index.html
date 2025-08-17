@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mykhailo Potseluiev — Resume</title>
+  <meta name="description" content="Senior Full‑Stack / Web Developer. JavaScript, TypeScript, React, Node.js, Nest.js, MySQL, PostgreSQL, MongoDB, MUI, Tailwind." />
+  <meta property="og:title" content="Mykhailo Potseluiev — Resume" />
+  <meta property="og:description" content="Senior Full‑Stack / Web Developer. JavaScript, TypeScript, React, Node.js, Nest.js, MySQL, PostgreSQL, MongoDB, MUI, Tailwind." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0B0F19" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b0f19; /* slate-950 */
+      --card:#111727; /* slightly lighter */
+      --text:#e6eaf2;
+      --muted:#9aa3b2;
+      --accent:#4f8cff;
+      --accent-2:#7c5cff;
+      --chip:#1a2133;
+      --border:#1f2a44;
+      --ok:#22c55e;
+      --warn:#f59e0b;
+      --danger:#ef4444;
+      --maxw:1080px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0; font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; color:var(--text); background:linear-gradient(180deg,var(--bg),#0e1322 60%,#0b0f19);
+    }
+    a{color:inherit;text-decoration:none}
+    .container{max-width:var(--maxw); margin:0 auto; padding:32px 20px 80px;}
+    header{
+      position:sticky; top:0; z-index:10; backdrop-filter:saturate(1.2) blur(10px);
+      background:linear-gradient(180deg,rgba(11,15,25,.9),rgba(11,15,25,.6));
+      border-bottom:1px solid var(--border);
+    }
+    .topbar{display:flex; align-items:center; gap:16px; max-width:var(--maxw); margin:0 auto; padding:14px 20px}
+    .brand{display:flex; align-items:center; gap:12px}
+    .avatar{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,#4f8cff,#7c5cff)}
+    .name{font-weight:700; letter-spacing:.2px}
+    nav{margin-left:auto; display:flex; gap:14px; flex-wrap:wrap}
+    nav a{padding:8px 12px; border:1px solid transparent; border-radius:999px; color:var(--muted)}
+    nav a:hover{color:var(--text); border-color:var(--border); background:#0e1628}
+    .btn{display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:12px; background:linear-gradient(135deg,var(--accent),var(--accent-2)); color:white; font-weight:600; border:0; cursor:pointer}
+    .btn.secondary{background:#16213b; border:1px solid var(--border)}
+
+    .grid{display:grid; grid-template-columns:320px 1fr; gap:24px; margin-top:28px}
+    @media (max-width: 900px){ .grid{grid-template-columns:1fr} }
+
+    .card{background:linear-gradient(180deg,rgba(255,255,255,.02),rgba(255,255,255,.0)); border:1px solid var(--border); border-radius:18px; padding:22px}
+    .left .card{position:sticky; top:74px}
+
+    h1{font-size:34px; margin:0 0 8px}
+    .role{color:var(--muted); font-weight:600}
+    .muted{color:var(--muted)}
+    .badges{display:flex; flex-wrap:wrap; gap:8px; margin-top:12px}
+    .chip{background:var(--chip); border:1px solid var(--border); padding:8px 12px; border-radius:999px; font-size:13px; font-weight:600}
+
+    .contact{display:grid; grid-template-columns:auto 1fr; gap:6px 10px; margin-top:14px}
+    .contact a{color:var(--text)}
+    .contact .muted{font-size:13px}
+
+    section{margin-bottom:24px}
+    section h2{font-size:20px; margin:0 0 12px; letter-spacing:.3px}
+
+    .timeline{display:flex; flex-direction:column; gap:14px}
+    .item{padding:16px; border:1px solid var(--border); border-radius:14px; background:#0e1628}
+    .item h3{margin:0 0 4px; font-size:16px}
+    .item .when{color:var(--muted); font-size:13px}
+    .item .where{color:var(--muted); font-weight:600}
+    .item ul{margin:8px 0 0 18px}
+
+    footer{margin-top:24px; color:var(--muted); font-size:13px; display:flex; justify-content:space-between; align-items:center}
+
+    /* Print */
+    @media print {
+      header{position:static; background:none; border:0}
+      .grid{grid-template-columns:1fr 2fr}
+      nav,.btn{display:none}
+      body{background:#fff; color:#111}
+      .card{border-color:#ddd}
+      .item{background:#fff}
+    }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Mykhailo Potseluiev",
+    "jobTitle": "Senior Full-Stack / Web Developer",
+    "address": {"@type":"PostalAddress", "addressLocality": "Kyiv", "addressCountry":"UA"},
+    "email": "mailto:hividermen@gmail.com",
+    "telephone": "+380932365098",
+    "url": "https://mykhailo-potseluiev.github.io",
+    "sameAs": [
+      "https://www.linkedin.com/in/mykhailo-potseluiev/",
+      "https://github.com/michapotselyev",
+      "https://t.me/mykhailo_potseluiev"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="topbar">
+      <div class="brand"><div class="avatar" aria-hidden="true"></div><div>
+        <div class="name">Mykhailo Potseluiev</div>
+        <div class="muted">Senior Full‑Stack / Web Developer</div>
+      </div></div>
+      <nav aria-label="Навігація">
+        <a href="#about">Про мене</a>
+        <a href="#skills">Стек</a>
+        <a href="#experience">Досвід</a>
+        <a href="#education">Освіта</a>
+        <a href="#contact">Контакти</a>
+      </nav>
+      <button class="btn" onclick="window.print()" title="Завантажити PDF">🧾 PDF</button>
+    </div>
+  </header>
+
+  <main class="container grid">
+    <aside class="left">
+      <section class="card" id="about">
+        <h1>Mykhailo Potseluiev</h1>
+        <div class="role">Senior Full‑Stack / Web Developer</div>
+        <p class="muted" style="margin-top:10px">
+          Досвідчений веб‑розробник з фокусом на JavaScript/TypeScript: React, Angular, Vue на фронтенді та Node.js/Nest.js на бекенді. Працюю з REST/WebSocket, Redux, RXJS, Express; бази даних — MySQL, PostgreSQL, MongoDB. Швидко навчаюся та беру відповідальність за технічну якість продукту.
+        </p>
+        <div class="badges" aria-label="Ключові компетенції">
+          <span class="chip">JavaScript / TypeScript</span>
+          <span class="chip">React • Next.js</span>
+          <span class="chip">Node.js • Nest.js</span>
+          <span class="chip">SQL • MySQL • PostgreSQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">MUI • Tailwind</span>
+        </div>
+        <div style="height:12px"></div>
+        <div class="contact" id="contact">
+          <div class="muted">Email</div><a href="mailto:hividermen@gmail.com">hividermen@gmail.com</a>
+          <div class="muted">Телефон</div><a href="tel:+380932365098">+380 (93) 236‑50‑98</a>
+          <div class="muted">Місто</div><div>Kyiv, Ukraine</div>
+          <div class="muted">LinkedIn</div><a href="https://www.linkedin.com/in/mykhailo-potseluiev/" target="_blank" rel="noopener">/in/mykhailo-potseluiev</a>
+          <div class="muted">GitHub</div><a href="https://github.com/michapotselyev" target="_blank" rel="noopener">github.com/michapotselyev</a>
+          <div class="muted">Telegram</div><a href="https://t.me/mykhailo_potseluiev" target="_blank" rel="noopener">@mykhailo_potseluiev</a>
+        </div>
+      </section>
+
+      <section class="card" id="skills">
+        <h2>Технічний стек</h2>
+        <div class="badges">
+          <span class="chip">React</span>
+          <span class="chip">Next.js</span>
+          <span class="chip">Angular</span>
+          <span class="chip">Vue</span>
+          <span class="chip">Redux • Redux‑Saga • Persist</span>
+          <span class="chip">Node.js</span>
+          <span class="chip">Nest.js</span>
+          <span class="chip">Express</span>
+          <span class="chip">Socket.IO</span>
+          <span class="chip">RXJS</span>
+          <span class="chip">REST • WebSocket</span>
+          <span class="chip">MySQL</span>
+          <span class="chip">PostgreSQL</span>
+          <span class="chip">MongoDB</span>
+          <span class="chip">SQL</span>
+          <span class="chip">CSS3 • SCSS</span>
+          <span class="chip">Material UI</span>
+          <span class="chip">Tailwind</span>
+          <span class="chip">Git • GitHub</span>
+          <span class="chip">Python (Flask/Django/pytest)</span>
+        </div>
+      </section>
+
+      <section class="card" id="education">
+        <h2>Освіта</h2>
+        <div class="timeline">
+          <div class="item">
+            <h3>NTU “KHPI” — Bachelor’s Degree</h3>
+            <div class="when">Вер 2020 — Тра 2024 • Kharkiv, Ukraine</div>
+          </div>
+          <div class="item">
+            <h3>Innovation Campus (NTU “KHPI”) — Bachelor’s program</h3>
+            <div class="when">Вер 2021 — Тра 2023 • Kharkiv, Ukraine</div>
+          </div>
+          <div class="item">
+            <h3>Yellow English Submarine — B2 level</h3>
+            <div class="when">Вер 2019 — Тра 2020 • Kharkiv, Ukraine</div>
+          </div>
+        </div>
+      </section>
+    </aside>
+
+    <section class="right">
+      <section class="card" id="experience">
+        <h2>Досвід</h2>
+        <div class="timeline">
+          <div class="item">
+            <h3>OVBK Media — Senior Full‑Stack / Web Developer</h3>
+            <div class="when">Жов 2023 — Січ 2024 • Kyiv, Ukraine</div>
+            <ul>
+              <li>Контроль технічної частини розробки продукту та підтримка процесів.</li>
+              <li>Менторинг і розвиток технічної кваліфікації команди.</li>
+              <li>Контроль якості постановки та виконання задач.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Freelance — Middle → Senior Full‑Stack / Web Developer</h3>
+            <div class="when">Вер 2022 — Жов 2023 • Remote</div>
+            <ul>
+              <li>Розробка сайтів, застосунків, телеграм‑ботів, ПЗ на замовлення.</li>
+              <li>Посилення експертизи в React, Angular, Vue, Node, Nest, SQL/NoSQL.</li>
+              <li>Побудова рішень на MERN/SERN стеку.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Malyas — Middle Full‑Stack Developer</h3>
+            <div class="when">Кві 2022 — Вер 2022 • Tsibli, Ukraine</div>
+            <ul>
+              <li>Розробка веб‑додатку з ArcGIS для агросектору.</li>
+              <li>Інтеграція кадастрового API та системи керування поливом/посівом.</li>
+            </ul>
+          </div>
+          <div class="item">
+            <h3>Innovation Campus (NTU “KHPI”) — Trainee → Middle Full‑Stack Developer</h3>
+            <div class="when">Вер 2021 — Тра 2023 • Kharkiv, Ukraine</div>
+            <ul>
+              <li>Командні проєкти: месенджер, фоторедактор, e‑commerce, лендінги, телеграм‑боти.</li>
+              <li>Поглиблене вивчення JS/TS (React/Angular/Vue/Node/Nest), Python, БД, алгоритмів.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="projects">
+        <h2>Вибрані проєкти</h2>
+        <p class="muted">Додайте сюди 3–6 ключових проєктів. За замовчуванням підтягуються піннуті репозиторії GitHub (якщо ввімкнено нижче).</p>
+        <div id="repos" class="timeline"></div>
+        <button class="btn secondary" id="loadRepos">Завантажити з GitHub</button>
+      </section>
+
+      <section class="card" id="extras">
+        <h2>Додатково</h2>
+        <ul>
+          <li>Пишу чистий, типізований код, орієнтований на стабільність і підтримуваність.</li>
+          <li>Прихильник акуратної архітектури, автоматизації та зрозумілої документації.</li>
+        </ul>
+      </section>
+
+      <footer>
+        <span>Останнє оновлення: <span id="updated"></span></span>
+        <span>© <span id="year"></span> Mykhailo Potseluiev</span>
+      </footer>
+    </section>
+  </main>
+
+  <script>
+    // ——— Small helpers ———
+    const $ = (s,root=document)=>root.querySelector(s);
+    const $$ = (s,root=document)=>Array.from(root.querySelectorAll(s));
+
+    // Update footer timestamps
+    const d=new Date(); $('#year').textContent=d.getFullYear(); $('#updated').textContent=d.toLocaleDateString('uk-UA');
+
+    // Optional: load pinned repos (no token, public endpoint). You can remove if not needed.
+    const GH_USER = 'michapotselyev';
+    $('#loadRepos').addEventListener('click', async () => {
+      const box = $('#repos');
+      $('#loadRepos').disabled = true; $('#loadRepos').textContent = 'Завантаження…';
+      try{
+        // Fallback: fetch last updated repos if pinned API not available
+        const r = await fetch(`https://api.github.com/users/${GH_USER}/repos?per_page=6&sort=updated`);
+        const repos = await r.json();
+        box.innerHTML = '';
+        repos.slice(0,6).forEach(repo => {
+          const item = document.createElement('div');
+          item.className = 'item';
+          item.innerHTML = `<h3><a href="${repo.html_url}" target="_blank" rel="noopener">${repo.name}</a></h3>
+            <div class="when">${repo.language || '—'} • ★ ${repo.stargazers_count} • Оновлено: ${new Date(repo.updated_at).toLocaleDateString('uk-UA')}</div>
+            <p class="muted">${repo.description || 'Без опису.'}</p>`;
+          box.appendChild(item);
+        });
+      }catch(err){
+        box.innerHTML = '<div class="item"><p class="muted">Не вдалося підвантажити репозиторії. Додайте проєкти вручну.</p></div>';
+      }finally{
+        $('#loadRepos').remove();
+      }
+    });
+  </script>
+</body>
+</html>
