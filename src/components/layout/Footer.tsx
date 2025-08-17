@@ -20,10 +20,10 @@ export const Footer: React.FC = () => {
         }}
       >
         <Typography variant="body2" color="text.secondary">
-          © {currentYear} Mykhailo Potseluiev. Всі права захищені.
+          © {currentYear} Mykhailo Potseluiev. All rights reserved.
         </Typography>
         <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 1 }}>
-          Останнє оновлення: {currentDate}
+          Last updated: {currentDate}
         </Typography>
       </Box>
     </Fade>

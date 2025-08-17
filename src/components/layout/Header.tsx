@@ -116,7 +116,7 @@ export const Header: React.FC = () => {
             transition: 'all 0.3s ease'
           }}
         >
-          Завантажити резюме
+          Download Resume
         </Button>
       </Box>
     </Box>
@@ -189,7 +189,7 @@ export const Header: React.FC = () => {
                 ))}
                 
                 {/* Download button in desktop header */}
-                <Tooltip title="Завантажити резюме">
+                <Tooltip title="Download Resume">
                   <IconButton
                     onClick={handleDownloadResume}
                     sx={{

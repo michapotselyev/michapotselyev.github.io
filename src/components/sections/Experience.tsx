@@ -23,7 +23,7 @@ interface ExperienceProps {
 export const Experience: React.FC<ExperienceProps> = ({ experience }) => {
   return (
     <Box id="experience" sx={{ py: 8 }}>
-      <SectionTitle>Досвід роботи</SectionTitle>
+      <SectionTitle>Work Experience</SectionTitle>
       
       <Box sx={{ maxWidth: 1000, mx: 'auto' }}>
         {experience.map((exp, index) => (

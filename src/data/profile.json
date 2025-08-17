@@ -1,7 +1,7 @@
 {
   "name": "Mykhailo Potseluiev",
   "title": "Senior Full‑Stack / Web Developer",
-  "description": "Досвідчений Full-Stack розробник з 5+ роками досвіду в розробці сучасних веб‑додатків, мобільних рішень та blockchain проєктів. Спеціалізуюся на JavaScript/TypeScript екосистемі: React, Next.js, Angular, Vue на фронтенді та Node.js/Nest.js на бекенді. Маю досвід з Rust, PHP, C, blockchain технологіями (TON, Ethereum, ICP), ArcGIS та Telegram Bot API. Працюю з REST/WebSocket API, Redux (Saga, Toolkit, Persist), Socket.IO, Express; бази даних — MySQL, PostgreSQL, MongoDB. Експерт з Material UI, Tailwind CSS, SCSS, CSS Modules, React Router, інтернаціоналізації. Розробляю trading системи, arbitrage боти, фінансові сервіси, e-commerce платформи, CRM системи, NFT ігри та crypto trading рішення. Швидко навчаюся новим технологіям та беру відповідальність за технічну якість продукту.",
+  "description": "Experienced Full-Stack developer with 5+ years of experience in developing modern web applications, mobile solutions, and blockchain projects. Specializing in JavaScript/TypeScript ecosystem: React, Next.js, Angular, Vue on the frontend and Node.js/Nest.js on the backend. Experienced with Rust, PHP, C, blockchain technologies (TON, Ethereum, ICP), ArcGIS, and Telegram Bot API. Working with REST/WebSocket APIs, Redux (Saga, Toolkit, Persist), Socket.IO, Express; databases — MySQL, PostgreSQL, MongoDB. Expert in Material UI, Tailwind CSS, SCSS, CSS Modules, React Router, internationalization. Developing trading systems, arbitrage bots, financial services, e-commerce platforms, CRM systems, NFT games, and crypto trading solutions. Quickly learn new technologies and take responsibility for the technical quality of the product.",
   "contact": {
     "email": "hividermen@gmail.com",
     "phone": "+380932365098",
@@ -169,106 +169,106 @@
   "education": [
     {
       "title": "NTU \"KHPI\" — Bachelor's Degree in Computer Science",
-      "period": "Вер 2020 — Тра 2024",
+      "period": "Sep 2020 — May 2024",
       "location": "Kharkiv, Ukraine"
     },
     {
       "title": "Innovation Campus (NTU \"KHPI\") — Software Engineering Program",
-      "period": "Вер 2021 — Тра 2023",
+      "period": "Sep 2021 — May 2023",
       "location": "Kharkiv, Ukraine"
     },
     {
       "title": "Yellow English Submarine — English B2 Level",
-      "period": "Вер 2019 — Тра 2020",
+      "period": "Sep 2019 — May 2020",
       "location": "Kharkiv, Ukraine"
     }
   ],
   "experience": [
     {
       "title": "Self-Employed — Senior Full Stack Developer",
-      "period": "Сер 2024 — Дотепер",
-      "location": "Kyiv, Ukraine · Віддалена робота",
+      "period": "Jul 2024 — Present",
+      "location": "Kyiv, Ukraine · Remote",
       "responsibilities": [
-        "Розробка та доставка інноваційних проєктів: NFT-мобільна гра з масштабованою архітектурою та системами нагород.",
-        "CRM система для малого та середнього бізнесу з підписними моделями, MySQL та AWS інтеграцією.",
-        "E-commerce платформа Terra Mora для еко-дружніх товарів для дому з фокусом на UI/UX та React рішеннях.",
-        "Платформа для пресейлу токенів на Next.js з безпечною обробкою платежів.",
-        "Кастомні чат-боти для технічного аналізу та крипто арбітражу в Telegram.",
-        "Blockchain рішення зі смарт-контрактами та платіжними системами на TON, Ethereum та USDT."
+        "Development and delivery of innovative projects: NFT mobile game with scalable architecture and reward systems.",
+        "CRM system for small and medium businesses with subscription models, MySQL and AWS integration.",
+        "E-commerce platform Terra Mora for eco-friendly home goods with focus on UI/UX and React solutions.",
+        "Token presale platform on Next.js with secure payment processing.",
+        "Custom chatbots for technical analysis and crypto arbitrage in Telegram.",
+        "Blockchain solutions with smart contracts and payment systems on TON, Ethereum, and USDT."
       ]
     },
     {
       "title": "SmartyLab — Senior React Developer",
-      "period": "Січ 2024 — Сер 2024",
-      "location": "Kyiv, Ukraine · Віддалена робота",
+      "period": "Jan 2024 — Jul 2024",
+      "location": "Kyiv, Ukraine · Remote",
       "responsibilities": [
-        "Робота з React (create-react-app та vite) для створення сучасних веб-додатків.",
-        "Управління станом з Redux та іншими state management рішеннями.",
-        "Розробка UI з Material UI та Bootstrap для адаптивних інтерфейсів.",
-        "Вирішення складних технічних завдань та оптимізація продуктивності.",
-        "Code review та менторинг молодших розробників."
+        "Working with React (create-react-app and vite) for creating modern web applications.",
+        "State management with Redux and other state management solutions.",
+        "UI development with Material UI and Bootstrap for responsive interfaces.",
+        "Solving complex technical tasks and performance optimization.",
+        "Code review and mentoring junior developers."
       ]
     },
     {
       "title": "ОВБК Медія — Senior JS Developer | WEB Developer",
-      "period": "Жов 2023 — Січ 2024",
-      "location": "Киев, Украина · Робота в офісі",
+      "period": "Oct 2023 — Jan 2024",
+      "location": "Kyiv, Ukraine · Office",
       "responsibilities": [
-        "Контроль технічної частини розробки продукту та архітектурне планування.",
-        "Управління технічною кваліфікацією персоналу та проведення code review.",
-        "Технічна підтримка процесу розробки продукту та оптимізація робочих процесів.",
-        "Контроль якості технічних завдань та впровадження best practices.",
-        "Робота з React Native, Next.js, Express, Socket.io, MongoDB, PostgreSQL."
+        "Control of technical development and architectural planning.",
+        "Management of technical staff qualifications and code review.",
+        "Technical support of product development process and workflow optimization.",
+        "Quality control of technical tasks and implementation of best practices.",
+        "Working with React Native, Next.js, Express, Socket.io, MongoDB, PostgreSQL."
       ]
     },
     {
       "title": "Freelance — Senior Full-Stack | Web Developer",
-      "period": "Вер 2022 — Жов 2023",
-      "location": "Киев, Украина",
+      "period": "Sep 2022 — Oct 2023",
+      "location": "Kyiv, Ukraine",
       "responsibilities": [
-        "Розробка повноцінних веб‑додатків на React/Node.js стекі з використанням MERN stack.",
-        "Створення e‑commerce платформ, CRM систем, телеграм‑ботів та веб-сервісів.",
-        "Інтеграція з зовнішніми API та робота з різними базами даних (MongoDB, PostgreSQL).",
-        "Розробка з використанням Python для специфічних завдань та автоматизації.",
-        "Робота з клієнтами та управління проєктами від ідеї до запуску."
+        "Development of full-featured web applications on React/Node.js stack using MERN stack.",
+        "Creating e-commerce platforms, CRM systems, Telegram bots, and web services.",
+        "Integration with external APIs and working with various databases (MongoDB, PostgreSQL).",
+        "Development using Python for specific tasks and automation.",
+        "Working with clients and project management from idea to launch."
       ]
     },
     {
       "title": "Malyas — Middle Full-stack Developer",
-      "period": "Тра 2022 — Сер 2022",
-      "location": "Циблі,Украина · Робота в офісі",
+      "period": "May 2022 — Jul 2022",
+      "location": "Tsybly, Ukraine · Office",
       "responsibilities": [
-        "Розробка веб-сервісу для фермерів на основі ArcGIS з React+Node+PostgreSQL.",
-        "Інтеграція зі спеціальними API для отримання даних про поля та ферми.",
-        "Робота з геопросторовими даними та картографією для агросектору.",
-        "Створення інтерактивних карт та системи управління сільськогосподарськими даними."
+        "Development of web service for farmers based on ArcGIS with React+Node+PostgreSQL.",
+        "Integration with specialized APIs for obtaining field and farm data.",
+        "Working with geospatial data and cartography for the agricultural sector.",
+        "Creating interactive maps and agricultural data management system."
       ]
     },
     {
       "title": "Innovation Campus (NTU \"KHPI\") — Trainee → Middle Full Stack Developer",
-      "period": "Вер 2021 — Тра 2023",
-      "location": "Kharkiv, Ukraine · Гібридний формат роботи",
+      "period": "Sep 2021 — May 2023",
+      "location": "Kharkiv, Ukraine · Hybrid",
       "responsibilities": [
-        "Розробка сайтів, ботів, веб-додатків з використанням MERN stack та Python.",
-        "Вивчення та застосування сучасних технологій: React, Vue, Node.js, Express, Socket.io.",
-        "Робота з базами даних PostgreSQL та інтеграція з різними API.",
-        "Участь в командних проєктах та хакатонах для розвитку практичних навичок."
+        "Development of websites, bots, web applications using MERN stack and Python.",
+        "Learning and applying modern technologies: React, Vue, Node.js, Express, Socket.io.",
+        "Working with PostgreSQL databases and integration with various APIs.",
+        "Participation in team projects and hackathons for practical skills development."
       ]
     }
   ],
   "extras": [
-    "Пишу чистий, типізований код з використанням TypeScript та сучасних практик.",
-    "Досвід роботи з blockchain технологіями (TON, Ethereum, ICP, USDT) та смарт-контрактами.",
-    "Спеціалізація на розробці trading систем, arbitrage ботів та фінансових сервісів.",
-    "Експерт з Rust для high-performance систем та blockchain розробки.",
-    "Досвід роботи з Telegram Bot API та створення кастомних чат-ботів.",
-    "Знання ArcGIS для роботи з геопросторовими даними та картографією.",
-    "Експерт з фінансових сервісів та real-time даних (price tickers, trading).",
-    "Досвід з PHP, C та низькорівневим програмуванням.",
-    "Спеціалізація на React екосистемі: Redux Saga, React Router, React Intl, CSS Modules.",
-    "Досвід з Progressive Web Apps, Service Workers та мобільними рішеннями.",
-    "Володію методологіями Agile/Scrum та маю досвід роботи в команді.",
-    "Постійно вивчаю нові технології та слідкую за трендами в розробці."
+    "Writing clean, typed code using TypeScript and modern practices.",
+    "Experience working with blockchain technologies (TON, Ethereum, ICP, USDT) and smart contracts.",
+    "Specialization in developing trading systems, arbitrage bots, and financial services.",
+    "Expert in Rust for high-performance systems and blockchain development.",
+    "Experience with Telegram Bot API and creating custom chatbots.",
+    "Knowledge of ArcGIS for working with geospatial data and cartography.",
+    "Expert in financial services and real-time data (price tickers, trading).",
+    "Experience with PHP, C, and low-level programming.",
+    "Specialization in React ecosystem: Redux Saga, React Router, React Intl, CSS Modules.",
+    "Experience with Progressive Web Apps, Service Workers, and mobile solutions.",
+    "Proficient in Agile/Scrum methodologies and team collaboration experience.",
+    "Continuously learning new technologies and following development trends."
   ],
   "github": {
     "username": "michapotselyev"

@@ -19,7 +19,7 @@ interface EducationProps {
 export const Education: React.FC<EducationProps> = ({ education }) => {
   return (
     <Box id="education" sx={{ py: 8 }}>
-      <SectionTitle>Освіта</SectionTitle>
+      <SectionTitle>Education</SectionTitle>
       
       <Box sx={{ maxWidth: 800, mx: 'auto' }}>
         {education.map((edu, index) => (

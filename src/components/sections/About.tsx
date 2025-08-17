@@ -33,8 +33,8 @@ interface AboutProps {
 
 const contactItems = [
   { key: 'email', icon: EmailIcon, label: 'Email', color: '#EA4335' },
-  { key: 'phone', icon: PhoneIcon, label: 'Телефон', color: '#25D366' },
-  { key: 'city', icon: LocationIcon, label: 'Місто', color: '#FF6B35' },
+  { key: 'phone', icon: PhoneIcon, label: 'Phone', color: '#25D366' },
+  { key: 'city', icon: LocationIcon, label: 'City', color: '#FF6B35' },
   { key: 'linkedin', icon: LinkedInIcon, label: 'LinkedIn', color: '#0077B5' },
   { key: 'github', icon: GitHubIcon, label: 'GitHub', color: '#333333' },
   { key: 'telegram', icon: TelegramIcon, label: 'Telegram', color: '#0088CC' }
@@ -81,7 +81,7 @@ export const About: React.FC<AboutProps> = ({ name, title, description, contact 
         }}
       />
 
-      <SectionTitle>Про мене</SectionTitle>
+      <SectionTitle>About Me</SectionTitle>
 
       <Box sx={{ 
         display: 'flex', 
@@ -309,7 +309,7 @@ export const About: React.FC<AboutProps> = ({ name, title, description, contact 
               }
             }}
           >
-            Зв'яжіться зі мною
+            Get in Touch
           </Typography>
 
           <Box

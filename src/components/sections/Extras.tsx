@@ -17,7 +17,7 @@ interface ExtrasProps {
 export const Extras: React.FC<ExtrasProps> = ({ extras }) => {
   return (
     <Box id="extras" sx={{ py: 8 }}>
-      <SectionTitle>Додаткова інформація</SectionTitle>
+      <SectionTitle>Additional Information</SectionTitle>
       
       <Box sx={{ maxWidth: 800, mx: 'auto' }}>
         <List>

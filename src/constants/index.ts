@@ -1,11 +1,11 @@
 // Navigation constants
 export const NAV_ITEMS = [
-  { id: 'about', label: 'Про мене', href: '#about' },
-  { id: 'skills', label: 'Навички', href: '#skills' },
-  { id: 'experience', label: 'Досвід', href: '#experience' },
-  { id: 'education', label: 'Освіта', href: '#education' },
-  // { id: 'projects', label: 'Проєкти', href: '#projects' },
-  { id: 'extras', label: 'Додатково', href: '#extras' }
+  { id: 'about', label: 'About', href: '#about' },
+  { id: 'skills', label: 'Skills', href: '#skills' },
+  { id: 'experience', label: 'Experience', href: '#experience' },
+  { id: 'education', label: 'Education', href: '#education' },
+  // { id: 'projects', label: 'Projects', href: '#projects' },
+  { id: 'extras', label: 'Additional', href: '#extras' }
 ] as const;
 
 // Animation constants

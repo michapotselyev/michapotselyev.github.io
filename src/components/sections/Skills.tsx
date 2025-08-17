@@ -24,17 +24,17 @@ interface SkillsProps {
 const skillCategories = [
   {
     id: 'main',
-    title: 'Основні технології',
+    title: 'Core Technologies',
     icon: StarIcon,
     color: '#FFD700',
-    description: 'Ключові технології, які я використовую щодня'
+    description: 'Key technologies I use daily'
   },
   {
     id: 'technical',
-    title: 'Всі навички',
+    title: 'All Skills',
     icon: CodeIcon,
     color: '#9c27b0',
-    description: 'Повний стек технологій та інструментів'
+    description: 'Complete stack of technologies and tools'
   }
 ];
 
@@ -84,7 +84,7 @@ export const Skills: React.FC<SkillsProps> = ({ skills }) => {
         }}
       />
 
-      <SectionTitle>Технічний стек</SectionTitle>
+      <SectionTitle>Technical Stack</SectionTitle>
 
       <Box sx={{ position: 'relative', zIndex: 1 }}>
         {/* Category selector */}
@@ -251,7 +251,7 @@ export const Skills: React.FC<SkillsProps> = ({ skills }) => {
                       {allSkills.length}+
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Технологій
+                      Technologies
                     </Typography>
                   </Box>
 
@@ -270,7 +270,7 @@ export const Skills: React.FC<SkillsProps> = ({ skills }) => {
                       5+
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Років досвіду
+                      Years of Experience
                     </Typography>
                   </Box>
 
@@ -289,7 +289,7 @@ export const Skills: React.FC<SkillsProps> = ({ skills }) => {
                       50+
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Проектів
+                      Projects
                     </Typography>
                   </Box>
 
@@ -308,7 +308,7 @@ export const Skills: React.FC<SkillsProps> = ({ skills }) => {
                       Senior
                     </Typography>
                     <Typography variant="body2" color="text.secondary">
-                      Рівень
+                      Level
                     </Typography>
                   </Box>
                 </Box>
