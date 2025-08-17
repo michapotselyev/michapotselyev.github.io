@@ -53,3 +53,16 @@ export interface GitHubRepo {
   topics: string[];
   updated_at: string;
 }
+
+export interface Project {
+  id: number;
+  name: string;
+  description: string;
+  image: string;
+  demoUrl: string;
+  githubUrl: string;
+  technologies: string[];
+  features: string[];
+  stars: number;
+  forks: number;
+}

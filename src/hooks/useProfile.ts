@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import type { Profile } from '../types/profile';
-import profileData from '../data/profile.json';
+import { dataService } from '../services/dataService';
 
 export const useProfile = () => {
   const [profile, setProfile] = useState<Profile | null>(null);
@@ -11,11 +11,11 @@ export const useProfile = () => {
     const loadProfile = async () => {
       try {
         setLoading(true);
-        // В реальном приложении здесь был бы fetch
-        // Для демонстрации используем импортированные данные
-        setProfile(profileData as Profile);
+        const data = await dataService.getProfile();
+        setProfile(data);
+        setError(null);
       } catch (err) {
-        setError('Помилка завантаження даних профілю');
+        setError('Помилка завантаження профілю');
         console.error('Error loading profile:', err);
       } finally {
         setLoading(false);

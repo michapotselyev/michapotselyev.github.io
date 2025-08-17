@@ -1,93 +1,229 @@
-/* Print styles */
+/* Print styles - fixed layout */
 @media print {
-  /* Reset all animations and transitions */
+  /* Reset animations */
   * {
     animation: none !important;
     transition: none !important;
-    transform: none !important;
+  }
+
+  /* Hide only unnecessary elements */
+  .MuiAppBar-root,
+  .MuiIconButton-root,
+  .MuiTooltip-root,
+  [class*="MuiAppBar-root"] {
+    display: none !important;
+    visibility: hidden !important;
   }
   
-  /* Hide header */
-  .MuiAppBar-root {
+  /* Hide background effects */
+  [class*="SpaceBackground"],
+  [class*="FloatingParticles"],
+  [class*="SkillsParticles"] {
     display: none !important;
   }
   
-  /* Layout adjustments */
-  .MuiContainer-root {
-    max-width: none !important;
+  /* Page setup */
+  @page {
+    margin: 0.75in;
+    size: A4;
+  }
+  
+  /* Body styling */
+  body {
+    background: white !important;
+    color: black !important;
+    font-family: Arial, sans-serif !important;
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+    margin: 0 !important;
     padding: 0 !important;
   }
   
+  /* Container - keep layout */
+  .MuiContainer-root {
+    max-width: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  /* Typography */
+  .MuiTypography-h1,
+  .MuiTypography-h2,
+  .MuiTypography-h3,
+  .MuiTypography-h4,
+  .MuiTypography-h5,
+  .MuiTypography-h6 {
+    color: black !important;
+    font-weight: bold !important;
+    margin: 12pt 0 6pt 0 !important;
+  }
+  
+  .MuiTypography-h1 {
+    font-size: 24pt !important;
+    text-align: center !important;
+  }
+  
+  .MuiTypography-h2 {
+    font-size: 18pt !important;
+    border-bottom: 2pt solid #333 !important;
+    padding-bottom: 4pt !important;
+  }
+  
+  .MuiTypography-h3 {
+    font-size: 16pt !important;
+  }
+  
+  .MuiTypography-h4 {
+    font-size: 14pt !important;
+  }
+  
+  .MuiTypography-h5 {
+    font-size: 12pt !important;
+  }
+  
+  .MuiTypography-body1,
+  .MuiTypography-body2 {
+    color: black !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+    margin: 4pt 0 !important;
+  }
+  
+  /* Fix gradient text for print */
+  .MuiTypography-root {
+    background: none !important;
+    background-clip: unset !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    color: black !important;
+  }
+  
+  /* Specific colors for statistics */
+  .MuiTypography-root[style*="background: linear-gradient(135deg, #9c27b0"] {
+    color: #9c27b0 !important;
+  }
+  
+  .MuiTypography-root[style*="background: linear-gradient(135deg, #4caf50"] {
+    color: #4caf50 !important;
+  }
+  
+  .MuiTypography-root[style*="background: linear-gradient(135deg, #ff9800"] {
+    color: #ff9800 !important;
+  }
+  
+  .MuiTypography-root[style*="background: linear-gradient(135deg, #00bcd4"] {
+    color: #00bcd4 !important;
+  }
+  
+  /* Cards and Papers - keep layout */
+  .MuiCard-root,
+  .MuiPaper-root {
+    background: white !important;
+    border: 1pt solid #ccc !important;
+    box-shadow: none !important;
+    margin: 8pt 0 !important;
+    padding: 12pt !important;
+    border-radius: 0 !important;
+    /* Keep original layout */
+    display: block !important;
+    width: auto !important;
+    max-width: none !important;
+  }
+  
+  /* Grid - convert to block but keep structure */
   .MuiGrid-container {
     display: block !important;
   }
   
   .MuiGrid-item {
     width: 100% !important;
-    margin-bottom: 20pt !important;
-  }
-  
-  /* Typography improvements */
-  body {
-    background: #fff !important;
-    color: #111 !important;
-    font-size: 12pt !important;
-    line-height: 1.4 !important;
-  }
-  
-  .MuiTypography-h1 {
-    font-size: 24pt !important;
-    margin-bottom: 8pt !important;
-    color: #000 !important;
-  }
-  
-  .MuiTypography-h2 {
-    font-size: 16pt !important;
-    margin-bottom: 8pt !important;
-    color: #000 !important;
-    border-bottom: 1pt solid #ccc !important;
-    padding-bottom: 4pt !important;
-  }
-  
-  .MuiTypography-h3,
-  .MuiTypography-h4,
-  .MuiTypography-h6 {
-    font-size: 14pt !important;
-    margin-bottom: 4pt !important;
-    color: #000 !important;
-  }
-  
-  /* Card styling */
-  .MuiCard-root {
-    border: 1pt solid #ddd !important;
-    background: #fff !important;
-    box-shadow: none !important;
-    padding: 16pt !important;
-    margin-bottom: 16pt !important;
-    page-break-inside: avoid !important;
-  }
-  
-  /* Paper items */
-  .MuiPaper-root {
-    background: #fff !important;
-    border: 1pt solid #eee !important;
-    box-shadow: none !important;
     margin-bottom: 12pt !important;
-    page-break-inside: avoid !important;
+    display: block !important;
   }
   
-  /* Chips and badges */
+  /* Box - keep layout */
+  .MuiBox-root {
+    margin: 8pt 0 !important;
+    display: block !important;
+    width: auto !important;
+  }
+  
+  /* Flex containers */
+  [style*="display: flex"] {
+    display: block !important;
+  }
+  
+  /* Grid containers */
+  [style*="display: grid"] {
+    display: block !important;
+  }
+  
+  /* Chips */
   .MuiChip-root {
-    background: #f5f5f5 !important;
-    border: 1pt solid #ddd !important;
-    color: #333 !important;
+    background: #f0f0f0 !important;
+    border: 1pt solid #ccc !important;
+    color: black !important;
     font-size: 10pt !important;
+    margin: 2pt 4pt 2pt 0 !important;
+    padding: 4pt 8pt !important;
+    display: inline-block !important;
   }
   
   /* Links */
   .MuiLink-root {
-    color: #000 !important;
+    color: black !important;
     text-decoration: underline !important;
+  }
+  
+  /* Avatar */
+  .MuiAvatar-root {
+    background: #666 !important;
+    color: white !important;
+    font-size: 20pt !important;
+    font-weight: bold !important;
+    width: 60pt !important;
+    height: 60pt !important;
+    margin: 0 auto 12pt auto !important;
+    display: block !important;
+  }
+  
+  /* Sections */
+  [id="about"],
+  [id="skills"],
+  [id="experience"],
+  [id="education"],
+  [id="projects"],
+  [id="extras"] {
+    margin: 20pt 0 !important;
+    display: block !important;
+    width: 100% !important;
+  }
+  
+  /* Contact items */
+  .contact-item {
+    margin: 6pt 0 !important;
+    padding: 6pt !important;
+    border: 1pt solid #eee !important;
+    background: #fafafa !important;
+    display: block !important;
+  }
+  
+  /* Experience items */
+  .experience-item {
+    margin: 8pt 0 !important;
+    padding: 8pt !important;
+    border-left: 3pt solid #333 !important;
+    background: #fafafa !important;
+    display: block !important;
+  }
+  
+  /* Project items */
+  .project-item {
+    margin: 6pt 0 !important;
+    padding: 8pt !important;
+    border: 1pt solid #eee !important;
+    background: white !important;
+    display: block !important;
   }
   
   /* Footer */
@@ -95,38 +231,62 @@
     margin-top: 20pt !important;
     padding-top: 12pt !important;
     border-top: 1pt solid #ccc !important;
-    font-size: 10pt !important;
+    font-size: 9pt !important;
+    color: #666 !important;
+    text-align: center !important;
   }
   
   /* Page breaks */
   .MuiCard-root,
-  .MuiPaper-root {
+  .MuiPaper-root,
+  .experience-item,
+  .project-item {
     page-break-inside: avoid !important;
   }
   
-  /* Hide loading states and animations */
-  .MuiCircularProgress-root {
+  /* Hide decorative elements */
+  [class*="decorative"],
+  [class*="background"],
+  [class*="particle"],
+  [class*="glow"],
+  [class*="shimmer"] {
     display: none !important;
   }
   
-  /* Ensure good contrast */
-  .MuiTypography-colorTextSecondary {
-    color: #666 !important;
+  /* Lists */
+  ul, ol {
+    margin: 6pt 0 !important;
+    padding-left: 16pt !important;
   }
   
-  /* Avatar */
-  .MuiAvatar-root {
-    background: #4f8cff !important;
-    box-shadow: none !important;
+  li {
+    margin: 2pt 0 !important;
   }
   
-  /* Buttons */
-  .MuiButton-root {
-    display: none !important;
+  /* Images */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
   }
   
-  /* Alerts */
-  .MuiAlert-root {
-    display: none !important;
+  /* Ensure text is readable */
+  * {
+    text-rendering: optimizeLegibility !important;
+  }
+  
+  /* Fix positioning */
+  [style*="position: absolute"],
+  [style*="position: fixed"] {
+    position: static !important;
+  }
+  
+  /* Fix overflow */
+  [style*="overflow: hidden"] {
+    overflow: visible !important;
+  }
+  
+  /* Fix z-index */
+  [style*="z-index"] {
+    z-index: auto !important;
   }
 }

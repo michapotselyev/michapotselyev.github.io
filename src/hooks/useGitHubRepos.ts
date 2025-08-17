@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import type { GitHubRepo } from '../types/profile';
 
 export const useGitHubRepos = (username: string) => {
@@ -6,7 +6,7 @@ export const useGitHubRepos = (username: string) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
-  const loadRepos = async () => {
+  const loadRepos = useCallback(async () => {
     try {
       setLoading(true);
       setError(null);
@@ -32,7 +32,7 @@ export const useGitHubRepos = (username: string) => {
     } finally {
       setLoading(false);
     }
-  };
+  }, [username]);
 
   return { repos, loading, error, loadRepos };
 };

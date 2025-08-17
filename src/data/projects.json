@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Kivo The Traider",
+    "description": "Автономна trading інтелігенція, що реагує на ринкові аномалії, виконує arbitrage та навчається з минулих угод. Використовує машинне навчання для аналізу ринкових даних та автоматичного прийняття торгових рішень.",
+    "image": "/images/projects/kivo-trader.jpg",
+    "demoUrl": "https://kivo-trader-demo.com",
+    "githubUrl": "https://github.com/michapotselyev/kivo-the-traider",
+    "technologies": ["TypeScript", "React", "Node.js", "Machine Learning", "Trading APIs", "WebSocket"],
+    "features": [
+      "Автономна trading система",
+      "Ринкові аномалії детекція",
+      "Arbitrage виконання",
+      "Машинне навчання",
+      "Real-time аналітика"
+    ],
+    "stars": 95,
+    "forks": 28
+  },
+  {
+    "id": 2,
+    "name": "ICP Agent Canister Market",
+    "description": "Ринок агентів та canisters на Internet Computer Protocol (ICP). Децентралізована платформа для торгівлі та розподілу blockchain агентів з використанням Rust та Motoko.",
+    "image": "/images/projects/icp-market.jpg",
+    "demoUrl": "https://icp-market-demo.com",
+    "githubUrl": "https://github.com/michapotselyev/icp-agent-canister-market",
+    "technologies": ["Rust", "Motoko", "ICP", "Blockchain", "Canisters", "WebAssembly"],
+    "features": [
+      "Децентралізований ринок",
+      "ICP canisters",
+      "Rust розробка",
+      "Blockchain агенти",
+      "WebAssembly"
+    ],
+    "stars": 87,
+    "forks": 34
+  },
+  {
+    "id": 3,
+    "name": "Terra Mora Admin",
+    "description": "Адмін-панель для e-commerce платформи Terra Mora з управлінням товарами, замовленнями, користувачами та аналітикою. Сучасний TypeScript інтерфейс з Material UI.",
+    "image": "/images/projects/terra-mora-admin.jpg",
+    "demoUrl": "https://terra-mora-admin.com",
+    "githubUrl": "https://github.com/michapotselyev/terra-mora-admin",
+    "technologies": ["TypeScript", "React", "Material UI", "Admin Panel", "E-commerce", "Analytics"],
+    "features": [
+      "Управління товарами",
+      "Система замовлень",
+      "Користувацька адміністрація",
+      "Аналітика продажів",
+      "TypeScript розробка"
+    ],
+    "stars": 73,
+    "forks": 19
+  },
+  {
+    "id": 4,
+    "name": "Telegram Angel Bot",
+    "description": "Розумний Telegram бот для автоматизації різних завдань: trading сигнали, новини, аналітика криптовалют. Інтеграція з зовнішніми API та базами даних.",
+    "image": "/images/projects/telegram-angel.jpg",
+    "demoUrl": "https://telegram-angel-demo.com",
+    "githubUrl": "https://github.com/michapotselyev/telegram-angel",
+    "technologies": ["TypeScript", "Telegram Bot API", "Node.js", "Trading APIs", "Crypto APIs"],
+    "features": [
+      "Trading сигнали",
+      "Крипто аналітика",
+      "Автоматизація",
+      "API інтеграція",
+      "Real-time сповіщення"
+    ],
+    "stars": 82,
+    "forks": 25
+  },
+  {
+    "id": 5,
+    "name": "Trade Bot",
+    "description": "Автоматизована trading система з підтримкою різних акаунтів та ринків. Включає стратегії arbitrage, risk management та portfolio tracking.",
+    "image": "/images/projects/trade-bot.jpg",
+    "demoUrl": "https://trade-bot-demo.com",
+    "githubUrl": "https://github.com/michapotselyev/trade_bot",
+    "technologies": ["Python", "Trading APIs", "Arbitrage", "Risk Management", "Portfolio Tracking"],
+    "features": [
+      "Автоматизована торгівля",
+      "Arbitrage стратегії",
+      "Risk management",
+      "Portfolio tracking",
+      "Multi-account підтримка"
+    ],
+    "stars": 91,
+    "forks": 31
+  },
+  {
+    "id": 6,
+    "name": "Aero UA",
+    "description": "Веб-додаток для авіакомпанії з бронюванням квитків, управлінням рейсами та пасажирським сервісом. TypeScript розробка з сучасним UI/UX.",
+    "image": "/images/projects/aero-ua.jpg",
+    "demoUrl": "https://aero-ua-demo.com",
+    "githubUrl": "https://github.com/michapotselyev/aero-ua",
+    "technologies": ["TypeScript", "React", "Booking System", "Flight Management", "Passenger Service"],
+    "features": [
+      "Бронювання квитків",
+      "Управління рейсами",
+      "Пасажирський сервіс",
+      "TypeScript розробка",
+      "Сучасний UI/UX"
+    ],
+    "stars": 68,
+    "forks": 16
+  }
+]

@@ -1,33 +1,29 @@
 import React from 'react';
 import { Box, Typography, Fade } from '@mui/material';
+import { formatDate } from '../../utils';
 
 export const Footer: React.FC = () => {
   const currentYear = new Date().getFullYear();
-  const lastUpdated = new Date().toLocaleDateString('uk-UA', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-  });
+  const currentDate = formatDate(new Date().toISOString());
 
   return (
-    <Fade in timeout={2000}>
+    <Fade in timeout={1000}>
       <Box
         component="footer"
         sx={{
           py: 4,
-          mt: 4,
+          mt: 8,
           textAlign: 'center',
-          borderTop: '1px solid',
-          borderColor: 'divider',
-          background: 'linear-gradient(180deg, rgba(11,15,25,0.5), rgba(11,15,25,0.8))',
+          background: 'linear-gradient(135deg, rgba(156, 39, 176, 0.1) 0%, rgba(103, 58, 183, 0.1) 100%)',
           backdropFilter: 'blur(10px)',
+          borderTop: '1px solid rgba(255, 255, 255, 0.1)'
         }}
       >
-        <Typography variant="body2" color="text.secondary" sx={{ mb: 1 }}>
-          Оновлено: {lastUpdated}
-        </Typography>
         <Typography variant="body2" color="text.secondary">
           © {currentYear} Mykhailo Potseluiev. Всі права захищені.
+        </Typography>
+        <Typography variant="caption" color="text.secondary" sx={{ display: 'block', mt: 1 }}>
+          Останнє оновлення: {currentDate}
         </Typography>
       </Box>
     </Fade>
