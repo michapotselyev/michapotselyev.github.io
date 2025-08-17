@@ -1,0 +1,132 @@
+/* Print styles */
+@media print {
+  /* Reset all animations and transitions */
+  * {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+  }
+  
+  /* Hide header */
+  .MuiAppBar-root {
+    display: none !important;
+  }
+  
+  /* Layout adjustments */
+  .MuiContainer-root {
+    max-width: none !important;
+    padding: 0 !important;
+  }
+  
+  .MuiGrid-container {
+    display: block !important;
+  }
+  
+  .MuiGrid-item {
+    width: 100% !important;
+    margin-bottom: 20pt !important;
+  }
+  
+  /* Typography improvements */
+  body {
+    background: #fff !important;
+    color: #111 !important;
+    font-size: 12pt !important;
+    line-height: 1.4 !important;
+  }
+  
+  .MuiTypography-h1 {
+    font-size: 24pt !important;
+    margin-bottom: 8pt !important;
+    color: #000 !important;
+  }
+  
+  .MuiTypography-h2 {
+    font-size: 16pt !important;
+    margin-bottom: 8pt !important;
+    color: #000 !important;
+    border-bottom: 1pt solid #ccc !important;
+    padding-bottom: 4pt !important;
+  }
+  
+  .MuiTypography-h3,
+  .MuiTypography-h4,
+  .MuiTypography-h6 {
+    font-size: 14pt !important;
+    margin-bottom: 4pt !important;
+    color: #000 !important;
+  }
+  
+  /* Card styling */
+  .MuiCard-root {
+    border: 1pt solid #ddd !important;
+    background: #fff !important;
+    box-shadow: none !important;
+    padding: 16pt !important;
+    margin-bottom: 16pt !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Paper items */
+  .MuiPaper-root {
+    background: #fff !important;
+    border: 1pt solid #eee !important;
+    box-shadow: none !important;
+    margin-bottom: 12pt !important;
+    page-break-inside: avoid !important;
+  }
+  
+  /* Chips and badges */
+  .MuiChip-root {
+    background: #f5f5f5 !important;
+    border: 1pt solid #ddd !important;
+    color: #333 !important;
+    font-size: 10pt !important;
+  }
+  
+  /* Links */
+  .MuiLink-root {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+  
+  /* Footer */
+  .MuiBox-root[component="footer"] {
+    margin-top: 20pt !important;
+    padding-top: 12pt !important;
+    border-top: 1pt solid #ccc !important;
+    font-size: 10pt !important;
+  }
+  
+  /* Page breaks */
+  .MuiCard-root,
+  .MuiPaper-root {
+    page-break-inside: avoid !important;
+  }
+  
+  /* Hide loading states and animations */
+  .MuiCircularProgress-root {
+    display: none !important;
+  }
+  
+  /* Ensure good contrast */
+  .MuiTypography-colorTextSecondary {
+    color: #666 !important;
+  }
+  
+  /* Avatar */
+  .MuiAvatar-root {
+    background: #4f8cff !important;
+    box-shadow: none !important;
+  }
+  
+  /* Buttons */
+  .MuiButton-root {
+    display: none !important;
+  }
+  
+  /* Alerts */
+  .MuiAlert-root {
+    display: none !important;
+  }
+}

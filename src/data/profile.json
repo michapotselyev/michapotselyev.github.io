@@ -1,0 +1,134 @@
+{
+  "name": "Mykhailo Potseluiev",
+  "title": "Senior Full‑Stack / Web Developer",
+  "description": "Досвідчений веб‑розробник з 3+ роками досвіду в розробці сучасних веб‑додатків. Спеціалізуюся на JavaScript/TypeScript екосистемі: React, Angular, Vue на фронтенді та Node.js/Nest.js на бекенді. Працюю з REST/WebSocket API, Redux, RXJS, Express; бази даних — MySQL, PostgreSQL, MongoDB. Маю досвід роботи з Material UI, Tailwind CSS, Git. Швидко навчаюся новим технологіям та беру відповідальність за технічну якість продукту.",
+  "contact": {
+    "email": "hividermen@gmail.com",
+    "phone": "+380932365098",
+    "city": "Kyiv, Ukraine",
+    "linkedin": "https://www.linkedin.com/in/mykhailo-potseluiev/",
+    "github": "https://github.com/michapotselyev",
+    "telegram": "https://t.me/mykhailo_potseluiev"
+  },
+  "skills": {
+    "main": [
+      "JavaScript / TypeScript",
+      "React • Next.js • Angular",
+      "Node.js • Nest.js • Express",
+      "MySQL • PostgreSQL • MongoDB",
+      "Material UI • Tailwind CSS",
+      "Git • GitHub • REST API"
+    ],
+    "technical": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Angular",
+      "Vue.js",
+      "Redux",
+      "Redux Toolkit",
+      "RXJS",
+      "Node.js",
+      "Nest.js",
+      "Express.js",
+      "REST API",
+      "WebSocket",
+      "Socket.IO",
+      "MySQL",
+      "PostgreSQL",
+      "MongoDB",
+      "Mongoose",
+      "TypeORM",
+      "Prisma",
+      "Material UI",
+      "Tailwind CSS",
+      "SCSS",
+      "CSS3",
+      "HTML5",
+      "Git",
+      "GitHub",
+      "Docker",
+      "AWS",
+      "Vercel",
+      "Netlify",
+      "Jest",
+      "Testing Library",
+      "ESLint",
+      "Prettier"
+    ]
+  },
+  "education": [
+    {
+      "title": "NTU \"KHPI\" — Bachelor's Degree in Computer Science",
+      "period": "Вер 2020 — Тра 2024",
+      "location": "Kharkiv, Ukraine"
+    },
+    {
+      "title": "Innovation Campus (NTU \"KHPI\") — Software Engineering Program",
+      "period": "Вер 2021 — Тра 2023",
+      "location": "Kharkiv, Ukraine"
+    },
+    {
+      "title": "Yellow English Submarine — English B2 Level",
+      "period": "Вер 2019 — Тра 2020",
+      "location": "Kharkiv, Ukraine"
+    }
+  ],
+  "experience": [
+    {
+      "title": "OVBK Media — Senior Full‑Stack / Web Developer",
+      "period": "Жов 2023 — Січ 2024",
+      "location": "Kyiv, Ukraine",
+      "responsibilities": [
+        "Технічне керівництво розробкою продукту та контроль якості коду.",
+        "Менторинг команди розробників та проведення code review.",
+        "Архітектурне планування та технічне консультування.",
+        "Оптимізація процесів розробки та впровадження best practices."
+      ]
+    },
+    {
+      "title": "Freelance — Middle → Senior Full‑Stack / Web Developer",
+      "period": "Вер 2022 — Жов 2023",
+      "location": "Remote",
+      "responsibilities": [
+        "Розробка повноцінних веб‑додатків на React/Node.js стекі.",
+        "Створення e‑commerce платформ, CRM систем, телеграм‑ботів.",
+        "Інтеграція з зовнішніми API та базами даних.",
+        "Робота з клієнтами та управління проєктами."
+      ]
+    },
+    {
+      "title": "Malyas — Middle Full‑Stack Developer",
+      "period": "Кві 2022 — Вер 2022",
+      "location": "Tsibli, Ukraine",
+      "responsibilities": [
+        "Розробка веб‑додатку з ArcGIS для агросектору.",
+        "Інтеграція з кадастровим API та системами керування.",
+        "Робота з геопросторовими даними та картографією."
+      ]
+    },
+    {
+      "title": "Innovation Campus (NTU \"KHPI\") — Trainee → Middle Full‑Stack Developer",
+      "period": "Вер 2021 — Тра 2023",
+      "location": "Kharkiv, Ukraine",
+      "responsibilities": [
+        "Розробка командних проєктів: месенджер, фоторедактор, e‑commerce платформа.",
+        "Вивчення та застосування сучасних технологій: React, Angular, Vue, Node.js.",
+        "Робота з базами даних та алгоритмами.",
+        "Участь в хакатонах та технічних конкурсах."
+      ]
+    }
+  ],
+  "extras": [
+    "Пишу чистий, типізований код з використанням TypeScript та сучасних практик.",
+    "Досвід роботи з мікросервісною архітектурою та containerization (Docker).",
+    "Знання CI/CD процесів та автоматизації розгортання.",
+    "Досвід роботи з cloud платформами (AWS, Vercel, Netlify).",
+    "Володію методологіями Agile/Scrum та маю досвід роботи в команді.",
+    "Постійно вивчаю нові технології та слідкую за трендами в розробці."
+  ],
+  "github": {
+    "username": "michapotselyev"
+  }
+}
